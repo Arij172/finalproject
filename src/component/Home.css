@@ -1,0 +1,113 @@
+
+.hero {
+    position: relative;
+    height: 1000px; 
+    overflow: hidden;
+}
+.card {
+    position: relative;
+    height: 100%;
+    background: none; 
+    border: none;
+    overflow: hidden;
+}
+
+.card-img {
+    object-fit:cover; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-title {
+    font-size: 1.5rem; 
+    color: #c85ca2; 
+}
+
+
+.card-text {
+    font-size: 1.5rem; 
+    color: #2b051b; 
+    max-width: 600px; 
+    margin-top: 500px; 
+}
+/* Home.css */
+
+/* Styling for the carousel container */
+#carouselExampleIndicators {
+    margin-top: 20px;
+  }
+  
+  /* Styling for carousel images */
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  /* Styling for carousel controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+  
+  /* Styling for carousel control icons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Styling for product section */
+  .product-section {
+    margin-top: 40px;
+  }
+  
+  /* Styling for product cards */
+  .product-card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styling for product titles */
+  .product-title {
+    font-weight: bold;
+  }
+  
+  /* Styling for product prices */
+  .product-price {
+    color: #007bff; /* Blue color for price */
+  }
+  
+  /* Styling for "Buy Now" button */
+  .buy-now-button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-now-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

@@ -1,0 +1,26 @@
+.custom-list-style li a {
+    text-decoration: none; 
+    color: #007bff;
+    font-weight: bold; 
+    transition: color 0.2s;
+  
+    
+  }
+  
+  .custom-list-style li a:hover {
+    color: #0056b3; 
+    
+}
+.custom-list-style-follow li a {
+    text-decoration: none; 
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.2s; 
+  
+   
+  }
+  
+  .custom-list-style-follow li a:hover {
+    color: #0056b3; 
+    
+  }

@@ -1,0 +1,87 @@
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-primary {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    background-color: #fff;
+    transition: background-color 0.2s;
+}
+.list-group-item:last-child {
+    font-weight: bold;
+    background-color: #e585bf;
+}
+.card {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e585bf;
+    border: 1px solid #ddd;
+}
+.form-label {
+    font-weight: bold;
+}
+.my-3 {
+    margin-top: 20px;
+}
+.form-check-label {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.form-control {
+    margin-top: 10px;
+    border: 1px solid #daced3;
+    border-radius: 4px;
+    padding: 10px;
+}
+.btn-primary {
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #e585bf;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #e585bf;
+}
+.form-check-input {
+    margin-right: 5px;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.invalid-feedback {
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.text-success {
+    color: #28a745;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.required-field {
+    color: #dc3545;
+    font-weight: bold;
+}
